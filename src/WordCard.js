@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import _, { attempt } from 'lodash';
 import CharacterCard from "./CharacterCard";
 
+
 const preparestateFromWolrd = given_word => {
     let word = given_word.toUpperCase()
     let chars = _.shuffle(Array.from(word))

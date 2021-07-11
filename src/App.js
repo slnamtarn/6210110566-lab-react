@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
 import WordCard from './WordCard';
+import { Button } from 'reactstrap';
 
-const word = "Woranut";
+
+const word = "woranut";
 function App() {
  return (
- <div >
+ <div >  
+    <Button outline color="success">my name is ... ?</Button>{' '}
     <WordCard value={word}/>
+  
  </div>
  );
 }
 export default App;
+
